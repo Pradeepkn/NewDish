@@ -13,8 +13,8 @@ struct APIConfig {
     // Config
     static var isProduction: Bool = true
     //
-    static var ProductionURL: String = "https://phrasal-charger-215107.appspot.com/api/"
-    static var StagingURL: String = "https://phrasal-charger-215107.appspot.com/api/"
+    static var ProductionURL: String = "https://citric-campaign-224513.appspot.com/api/app/"
+    static var StagingURL: String = "https://citric-campaign-224513.appspot.com/api/app/"
     
     static var BaseURL: String {
         if isProduction  {

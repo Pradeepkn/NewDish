@@ -14,8 +14,9 @@ class NDAuthenticationApi: APIBase {
     var isVerifyNumber = false
     var isVerifyEmail = false
     var isGenerateOtp = false
-    var isLoginOtpVerify = false
+    var isOtpLoginVerify = false
     var isRegistrationOtpVerify = false
+    var isEmailLogin = false
     
     var number: String = ""
     var email: String = ""
@@ -30,10 +31,12 @@ class NDAuthenticationApi: APIBase {
             return self.verifyEmailUrl()
         }else if isGenerateOtp{
             return self.generateOtpUrl()
-        }else if isLoginOtpVerify {
-            return self.verifyLoginOtpUrl()
+        }else if isOtpLoginVerify {
+            return self.verifyOtpLoginUrl()
         } else if isRegistrationOtpVerify {
             return self.verifyRegistrationOtpUrl()
+        } else if isEmailLogin{
+            return self.emailLoginUrl()
         }
         return ""
     }
@@ -50,12 +53,16 @@ class NDAuthenticationApi: APIBase {
         return "\(APIConfig.BaseURL)generate_otp"
     }
     
-    func verifyLoginOtpUrl() ->String {
+    func verifyOtpLoginUrl() ->String {
         return "\(APIConfig.BaseURL)verify_otp_login"
     }
     
     func verifyRegistrationOtpUrl() -> String {
         return "\(APIConfig.BaseURL)verify_otp_register"
+    }
+    
+    func emailLoginUrl() -> String {
+        return "\(APIConfig.BaseURL)login"
     }
     
     // MARK: HTTP method type
@@ -71,10 +78,12 @@ class NDAuthenticationApi: APIBase {
             return ["email": email]
         }else if isGenerateOtp{
             return ["number": number]
-        }else if isLoginOtpVerify {
+        }else if isOtpLoginVerify {
             return ["number": number, "otp":otp]
         } else if isRegistrationOtpVerify {
             return ["number": number,"email": email, "password" : password,"name":name,"otp":otp]
+        } else if isEmailLogin{
+            return["type":"email", "identity":email, "password":password]
         }
         return [:]
     }
