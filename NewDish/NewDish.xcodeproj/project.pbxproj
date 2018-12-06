@@ -31,6 +31,7 @@
 		27B9B5D121B3081F00037098 /* NDDishListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5D021B3081F00037098 /* NDDishListApi.swift */; };
 		861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */; };
 		861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */; };
+		8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */; };
 		EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewDish.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewDish/Pods-NewDish.release.xcconfig"; sourceTree = "<group>"; };
 		861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDHomeListEateriesApi.swift; sourceTree = "<group>"; };
 		861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDRestaurantListApi.swift; sourceTree = "<group>"; };
+		8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDActivityListApi.swift; sourceTree = "<group>"; };
 		970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewDish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,6 +182,7 @@
 				27B9B5D021B3081F00037098 /* NDDishListApi.swift */,
 				861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */,
 				861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */,
+				8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */,
 			);
 			path = APIS;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */,
 				27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */,
 				27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */,
+				8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */,
 				861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */,
 				27B9B5BB21B1175400037098 /* APIBase.swift in Sources */,
 				861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */,

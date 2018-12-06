@@ -34,10 +34,10 @@ class NDDishListApi: APIBase {
     var dishListDataSource = [DishListModel]()
     
     override func urlForRequest() -> String {
-        return self.changePasswordUrl()
+        return self.getDishListUrl()
     }
     
-    func changePasswordUrl() -> String {
+    func getDishListUrl() -> String {
         return "\(APIConfig.BaseURL)search/dish?q="
     }
     
