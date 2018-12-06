@@ -32,6 +32,8 @@
 		861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */; };
 		861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */; };
 		8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */; };
+		8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */; };
+		8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */; };
 		EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDHomeListEateriesApi.swift; sourceTree = "<group>"; };
 		861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDRestaurantListApi.swift; sourceTree = "<group>"; };
 		8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDActivityListApi.swift; sourceTree = "<group>"; };
+		8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDealsListApi.swift; sourceTree = "<group>"; };
+		8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDealApi.swift; sourceTree = "<group>"; };
 		970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewDish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -183,6 +187,8 @@
 				861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */,
 				861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */,
 				8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */,
+				8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */,
+				8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */,
 			);
 			path = APIS;
 			sourceTree = "<group>";
@@ -342,9 +348,11 @@
 				27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */,
 				27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */,
 				27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */,
+				8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */,
 				27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */,
 				27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */,
 				27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */,
+				8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */,
 				8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */,
 				861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */,
 				27B9B5BB21B1175400037098 /* APIBase.swift in Sources */,
