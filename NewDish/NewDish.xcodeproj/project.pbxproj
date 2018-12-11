@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27B9B59521B1167000037098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B59421B1167000037098 /* AppDelegate.swift */; };
-		27B9B59721B1167000037098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B59621B1167000037098 /* ViewController.swift */; };
+		27AABF6121C043A000B81AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6021C043A000B81AD8 /* AppDelegate.swift */; };
+		27AABF6321C043C400B81AD8 /* NDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */; };
+		27AABF6621C0440B00B81AD8 /* NDSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */; };
+		27AABF6821C0487500B81AD8 /* NDSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */; };
+		27AABF6A21C0488200B81AD8 /* NDSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */; };
+		27AABF6C21C048BC00B81AD8 /* NDOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */; };
+		27AABF7A21C04C4E00B81AD8 /* proximanova-black-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */; };
+		27AABF7B21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */; };
+		27AABF7C21C04C4E00B81AD8 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */; };
+		27AABF7D21C04C4E00B81AD8 /* proximanova-reg-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */; };
+		27AABF7E21C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */; };
+		27AABF7F21C04C4E00B81AD8 /* proximanova-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */; };
+		27AABF8021C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */; };
+		27AABF8121C04C4E00B81AD8 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */; };
+		27AABF8221C04C4E00B81AD8 /* proximanova-thin-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */; };
+		27AABF8321C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */; };
+		27AABF8421C04C4E00B81AD8 /* proximanova-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */; };
+		27AABF8521C04C4E00B81AD8 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */; };
 		27B9B59A21B1167000037098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B59821B1167000037098 /* Main.storyboard */; };
 		27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */; };
 		27B9B59F21B1167300037098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B59E21B1167300037098 /* Assets.xcassets */; };
@@ -41,9 +57,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AABF6021C043A000B81AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDBaseViewController.swift; sourceTree = "<group>"; };
+		27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSplashViewController.swift; sourceTree = "<group>"; };
+		27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSignUpViewController.swift; sourceTree = "<group>"; };
+		27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSignInViewController.swift; sourceTree = "<group>"; };
+		27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDOtpViewController.swift; sourceTree = "<group>"; };
+		27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-black-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-sbold-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
+		27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-reg-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-xbold-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-light-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
+		27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
+		27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-thin-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
 		27B9B59121B1167000037098 /* NewDish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27B9B59421B1167000037098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27B9B59621B1167000037098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27B9B59921B1167000037098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27B9B59C21B1167000037098 /* NewDish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewDish.xcdatamodel; sourceTree = "<group>"; };
 		27B9B59E21B1167300037098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +122,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27AABF5E21C043A000B81AD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */,
+				27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */,
+				27AABF6421C043E600B81AD8 /* Authentication */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27AABF5F21C043A000B81AD8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6021C043A000B81AD8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		27AABF6421C043E600B81AD8 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */,
+				27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */,
+				27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		27AABF6D21C04C4E00B81AD8 /* ProximaNova */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */,
+				27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */,
+				27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */,
+				27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */,
+				27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */,
+				27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */,
+				27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */,
+				27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */,
+				27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */,
+				27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */,
+				27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */,
+				27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */,
+			);
+			path = ProximaNova;
+			sourceTree = "<group>";
+		};
 		27B9B58821B1167000037098 = {
 			isa = PBXGroup;
 			children = (
@@ -111,16 +190,17 @@
 		27B9B59321B1167000037098 /* NewDish */ = {
 			isa = PBXGroup;
 			children = (
+				27AABF5F21C043A000B81AD8 /* AppDelegate */,
+				27AABF5E21C043A000B81AD8 /* ViewControllers */,
 				27B9B5C521B2ED0C00037098 /* UtilityClasses */,
 				27B9B5C221B2BFE600037098 /* APIS */,
 				27B9B5A921B1175400037098 /* TTNetwork */,
-				27B9B59421B1167000037098 /* AppDelegate.swift */,
-				27B9B59621B1167000037098 /* ViewController.swift */,
 				27B9B59821B1167000037098 /* Main.storyboard */,
 				27B9B59E21B1167300037098 /* Assets.xcassets */,
 				27B9B5A021B1167300037098 /* LaunchScreen.storyboard */,
 				27B9B5A321B1167300037098 /* Info.plist */,
 				27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */,
+				27AABF6D21C04C4E00B81AD8 /* ProximaNova */,
 			);
 			path = NewDish;
 			sourceTree = "<group>";
@@ -288,8 +368,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B9B5A221B1167300037098 /* LaunchScreen.storyboard in Resources */,
+				27AABF7D21C04C4E00B81AD8 /* proximanova-reg-webfont.ttf in Resources */,
+				27AABF8421C04C4E00B81AD8 /* proximanova-bold-webfont.ttf in Resources */,
+				27AABF7A21C04C4E00B81AD8 /* proximanova-black-webfont.ttf in Resources */,
+				27AABF7C21C04C4E00B81AD8 /* ProximaNova-BoldIt.otf in Resources */,
+				27AABF8321C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf in Resources */,
 				27B9B59F21B1167300037098 /* Assets.xcassets in Resources */,
+				27AABF8021C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf in Resources */,
+				27AABF8221C04C4E00B81AD8 /* proximanova-thin-webfont.ttf in Resources */,
+				27AABF7E21C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf in Resources */,
+				27AABF7B21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf in Resources */,
+				27AABF7F21C04C4E00B81AD8 /* proximanova-light-webfont.ttf in Resources */,
 				27B9B59A21B1167000037098 /* Main.storyboard in Resources */,
+				27AABF8121C04C4E00B81AD8 /* ProximaNova-RegItalic.otf in Resources */,
+				27AABF8521C04C4E00B81AD8 /* ProximaNova-LightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,16 +440,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8657748821BA935900069BC8 /* NDEateriesActivatedDealApi.swift in Sources */,
-				27B9B59721B1167000037098 /* ViewController.swift in Sources */,
 				27B9B5C721B2ED3500037098 /* NDConstants.swift in Sources */,
 				27B9B5C421B2C03F00037098 /* NDAuthenticationApi.swift in Sources */,
 				27B9B5D121B3081F00037098 /* NDDishListApi.swift in Sources */,
-				27B9B59521B1167000037098 /* AppDelegate.swift in Sources */,
+				27AABF6321C043C400B81AD8 /* NDBaseViewController.swift in Sources */,
 				27B9B5BA21B1175400037098 /* APIManager.swift in Sources */,
 				27B9B5B921B1175400037098 /* APIKeys.swift in Sources */,
 				27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */,
 				27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */,
+				27AABF6121C043A000B81AD8 /* AppDelegate.swift in Sources */,
 				27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */,
+				27AABF6821C0487500B81AD8 /* NDSignUpViewController.swift in Sources */,
+				27AABF6621C0440B00B81AD8 /* NDSplashViewController.swift in Sources */,
 				8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */,
 				27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */,
 				27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */,
@@ -365,12 +459,14 @@
 				27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */,
 				8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */,
 				8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */,
+				27AABF6C21C048BC00B81AD8 /* NDOtpViewController.swift in Sources */,
 				861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */,
 				27B9B5BB21B1175400037098 /* APIBase.swift in Sources */,
 				861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */,
 				8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */,
 				27B9B5C121B1175400037098 /* TTNetwork.xcdatamodeld in Sources */,
 				27B9B5C021B1175400037098 /* TTNetworkManager.swift in Sources */,
+				27AABF6A21C0488200B81AD8 /* NDSignInViewController.swift in Sources */,
 				27B9B5C921B2EFBE00037098 /* NDMyProfileApi.swift in Sources */,
 				27B9B5BD21B1175400037098 /* APICache.swift in Sources */,
 				27B9B5BE21B1175400037098 /* APICache+CoreDataProperties.swift in Sources */,
@@ -520,7 +616,8 @@
 			baseConfigurationReference = 27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NewDish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -528,6 +625,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.newdish.NewDish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -538,7 +636,8 @@
 			baseConfigurationReference = 42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NewDish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -546,6 +645,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.newdish.NewDish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
