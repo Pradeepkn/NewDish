@@ -97,6 +97,9 @@
                                                 <integer key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="confirmButtonClicked:" destination="tYO-B8-1Gn" eventType="touchUpInside" id="bJk-kZ-aXO"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skX-ng-65S">
                                         <rect key="frame" x="20" y="0.0" width="335" height="80"/>
@@ -106,9 +109,13 @@
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D5u-9q-OoA">
                                                         <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="tYO-B8-1Gn" id="pU0-kW-xDO"/>
+                                                        </connections>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwY-YV-EJ4">
                                                         <rect key="frame" x="0.0" y="0.0" width="76.5" height="50"/>
@@ -140,7 +147,7 @@
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qKn-Ak-u5b">
                                                         <rect key="frame" x="0.0" y="49" width="76.5" height="1"/>
-                                                        <color key="backgroundColor" red="0.85934501890000003" green="0.35251381990000002" blue="0.3705830276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="OfJ-L4-Ag2"/>
                                                         </constraints>
@@ -210,6 +217,9 @@
                                                 <state key="normal" title="Resend">
                                                     <color key="titleColor" red="0.85934501890000003" green="0.35251381990000002" blue="0.3705830276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="resentButtonClicked:" destination="tYO-B8-1Gn" eventType="touchUpInside" id="Ab7-mN-X2D"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW9-Is-JQc">
                                                 <rect key="frame" x="0.0" y="50" width="38" height="30"/>
@@ -257,6 +267,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vpI-q9-uHY"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmButton" destination="jTg-oB-P7l" id="kZZ-KL-S3E"/>
+                        <outlet property="firstDigit" destination="UwY-YV-EJ4" id="ulG-g4-UWz"/>
+                        <outlet property="fourthDigit" destination="m9X-ow-2O1" id="k5n-DB-XeN"/>
+                        <outlet property="indicator1" destination="qKn-Ak-u5b" id="lwD-WK-nKH"/>
+                        <outlet property="indicator2" destination="FFR-dr-chc" id="Kv5-Ku-iOo"/>
+                        <outlet property="indicator3" destination="NYu-fO-Qn2" id="z9d-v7-JAo"/>
+                        <outlet property="indicator4" destination="bhc-Ry-5bm" id="iTd-zI-eom"/>
+                        <outlet property="otpTextField" destination="D5u-9q-OoA" id="kJy-KL-mlE"/>
+                        <outlet property="resendButton" destination="HxX-hG-gxe" id="R1W-qm-VuX"/>
+                        <outlet property="secondDigit" destination="nvt-N3-2e4" id="Azs-py-5Ei"/>
+                        <outlet property="thirdDigit" destination="fru-FZ-h9R" id="YzT-6h-p1d"/>
+                        <outlet property="timerLabel" destination="WW9-Is-JQc" id="p2M-Uc-yIa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mvg-xS-ALL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

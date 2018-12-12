@@ -15,6 +15,7 @@ class NDSignInViewController: NDBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true
     }
     
     @IBAction func proceedButtonClicked(_ sender: Any) {
