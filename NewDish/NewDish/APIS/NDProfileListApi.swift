@@ -13,6 +13,7 @@ class ProfileListModel : NSObject {
     var profileId : String = ""
     var name : String = ""
     var username : String = ""
+    var picture : String = ""
 }
 
 class NDProfileListApi: APIBase {
@@ -24,7 +25,7 @@ class NDProfileListApi: APIBase {
     }
     
     func changePasswordUrl() -> String {
-        return "\(APIConfig.BaseURL)myaccount/details"
+        return "\(APIConfig.BaseURL)app/search/profile"
     }
     
     // MARK: HTTP method type

@@ -1,707 +1,709 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 50;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        27AABF6121C043A000B81AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6021C043A000B81AD8 /* AppDelegate.swift */; };
-        27AABF6321C043C400B81AD8 /* NDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */; };
-        27AABF6621C0440B00B81AD8 /* NDSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */; };
-        27AABF6821C0487500B81AD8 /* NDSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */; };
-        27AABF6A21C0488200B81AD8 /* NDSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */; };
-        27AABF6C21C048BC00B81AD8 /* NDOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */; };
-        27AABF7A21C04C4E00B81AD8 /* proximanova-black-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */; };
-        27AABF7B21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */; };
-        27AABF7C21C04C4E00B81AD8 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */; };
-        27AABF7D21C04C4E00B81AD8 /* proximanova-reg-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */; };
-        27AABF7E21C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */; };
-        27AABF7F21C04C4E00B81AD8 /* proximanova-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */; };
-        27AABF8021C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */; };
-        27AABF8121C04C4E00B81AD8 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */; };
-        27AABF8221C04C4E00B81AD8 /* proximanova-thin-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */; };
-        27AABF8321C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */; };
-        27AABF8421C04C4E00B81AD8 /* proximanova-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */; };
-        27AABF8521C04C4E00B81AD8 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */; };
-        27B9B59A21B1167000037098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B59821B1167000037098 /* Main.storyboard */; };
-        27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */; };
-        27B9B59F21B1167300037098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B59E21B1167300037098 /* Assets.xcassets */; };
-        27B9B5A221B1167300037098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B5A021B1167300037098 /* LaunchScreen.storyboard */; };
-        27B9B5B921B1175400037098 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AC21B1175400037098 /* APIKeys.swift */; };
-        27B9B5BA21B1175400037098 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AD21B1175400037098 /* APIManager.swift */; };
-        27B9B5BB21B1175400037098 /* APIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AE21B1175400037098 /* APIBase.swift */; };
-        27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AF21B1175400037098 /* TTNetworkCoreDataManager.swift */; };
-        27B9B5BD21B1175400037098 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B221B1175400037098 /* APICache.swift */; };
-        27B9B5BE21B1175400037098 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B321B1175400037098 /* APICache+CoreDataProperties.swift */; };
-        27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B521B1175400037098 /* TTNetworkContants.swift */; };
-        27B9B5C021B1175400037098 /* TTNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B621B1175400037098 /* TTNetworkManager.swift */; };
-        27B9B5C121B1175400037098 /* TTNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B721B1175400037098 /* TTNetwork.xcdatamodeld */; };
-        27B9B5C421B2C03F00037098 /* NDAuthenticationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5C321B2C03F00037098 /* NDAuthenticationApi.swift */; };
-        27B9B5C721B2ED3500037098 /* NDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5C621B2ED3500037098 /* NDConstants.swift */; };
-        27B9B5C921B2EFBE00037098 /* NDMyProfileApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5C821B2EFBE00037098 /* NDMyProfileApi.swift */; };
-        27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5CA21B3009100037098 /* NDChangePasswordApi.swift */; };
-        27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5CC21B3026700037098 /* NDAccountDetailsApi.swift */; };
-        27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5CE21B3051900037098 /* NDProfileListApi.swift */; };
-        27B9B5D121B3081F00037098 /* NDDishListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5D021B3081F00037098 /* NDDishListApi.swift */; };
-        861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */; };
-        861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */; };
-        8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */; };
-        8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */; };
-        8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */; };
-        8657748821BA935900069BC8 /* NDEateriesActivatedDealApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */; };
-        8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */; };
-        8657748C21BAA9B300069BC8 /* NDAppDishesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */; };
-        86C1441A21BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */; };
-        86DE18D321C0D7BE008A420B /* NDEateriesDetailsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */; };
-        EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */; };
+		27AABF6121C043A000B81AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6021C043A000B81AD8 /* AppDelegate.swift */; };
+		27AABF6321C043C400B81AD8 /* NDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */; };
+		27AABF6621C0440B00B81AD8 /* NDSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */; };
+		27AABF6821C0487500B81AD8 /* NDSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */; };
+		27AABF6A21C0488200B81AD8 /* NDSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */; };
+		27AABF6C21C048BC00B81AD8 /* NDOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */; };
+		27AABF7A21C04C4E00B81AD8 /* proximanova-black-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */; };
+		27AABF7B21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */; };
+		27AABF7C21C04C4E00B81AD8 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */; };
+		27AABF7D21C04C4E00B81AD8 /* proximanova-reg-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */; };
+		27AABF7E21C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */; };
+		27AABF7F21C04C4E00B81AD8 /* proximanova-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */; };
+		27AABF8021C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */; };
+		27AABF8121C04C4E00B81AD8 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */; };
+		27AABF8221C04C4E00B81AD8 /* proximanova-thin-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */; };
+		27AABF8321C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */; };
+		27AABF8421C04C4E00B81AD8 /* proximanova-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */; };
+		27AABF8521C04C4E00B81AD8 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */; };
+		27B9B59A21B1167000037098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B59821B1167000037098 /* Main.storyboard */; };
+		27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */; };
+		27B9B59F21B1167300037098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B59E21B1167300037098 /* Assets.xcassets */; };
+		27B9B5A221B1167300037098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B9B5A021B1167300037098 /* LaunchScreen.storyboard */; };
+		27B9B5B921B1175400037098 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AC21B1175400037098 /* APIKeys.swift */; };
+		27B9B5BA21B1175400037098 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AD21B1175400037098 /* APIManager.swift */; };
+		27B9B5BB21B1175400037098 /* APIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AE21B1175400037098 /* APIBase.swift */; };
+		27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5AF21B1175400037098 /* TTNetworkCoreDataManager.swift */; };
+		27B9B5BD21B1175400037098 /* APICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B221B1175400037098 /* APICache.swift */; };
+		27B9B5BE21B1175400037098 /* APICache+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B321B1175400037098 /* APICache+CoreDataProperties.swift */; };
+		27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B521B1175400037098 /* TTNetworkContants.swift */; };
+		27B9B5C021B1175400037098 /* TTNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B621B1175400037098 /* TTNetworkManager.swift */; };
+		27B9B5C121B1175400037098 /* TTNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5B721B1175400037098 /* TTNetwork.xcdatamodeld */; };
+		27B9B5C421B2C03F00037098 /* NDAuthenticationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5C321B2C03F00037098 /* NDAuthenticationApi.swift */; };
+		27B9B5C721B2ED3500037098 /* NDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5C621B2ED3500037098 /* NDConstants.swift */; };
+		27B9B5C921B2EFBE00037098 /* NDMyProfileApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5C821B2EFBE00037098 /* NDMyProfileApi.swift */; };
+		27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5CA21B3009100037098 /* NDChangePasswordApi.swift */; };
+		27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5CC21B3026700037098 /* NDAccountDetailsApi.swift */; };
+		27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5CE21B3051900037098 /* NDProfileListApi.swift */; };
+		27B9B5D121B3081F00037098 /* NDDishListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9B5D021B3081F00037098 /* NDDishListApi.swift */; };
+		861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */; };
+		861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */; };
+		8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */; };
+		8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */; };
+		8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */; };
+		8657748821BA935900069BC8 /* NDEateriesActivatedDealApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */; };
+		8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */; };
+		8657748C21BAA9B300069BC8 /* NDAppDishesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */; };
+		86A89CA621C7BBA4005D8F6F /* NDEateriesSearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A89CA521C7BBA4005D8F6F /* NDEateriesSearchApi.swift */; };
+		EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-        27AABF6021C043A000B81AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDBaseViewController.swift; sourceTree = "<group>"; };
-        27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSplashViewController.swift; sourceTree = "<group>"; };
-        27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSignUpViewController.swift; sourceTree = "<group>"; };
-        27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSignInViewController.swift; sourceTree = "<group>"; };
-        27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDOtpViewController.swift; sourceTree = "<group>"; };
-        27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-black-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-sbold-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
-        27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-reg-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-xbold-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-light-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
-        27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
-        27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-thin-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
-        27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.ttf"; sourceTree = "<group>"; };
-        27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
-        27B9B59121B1167000037098 /* NewDish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        27B9B59921B1167000037098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        27B9B59C21B1167000037098 /* NewDish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewDish.xcdatamodel; sourceTree = "<group>"; };
-        27B9B59E21B1167300037098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        27B9B5A121B1167300037098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        27B9B5A321B1167300037098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        27B9B5AC21B1175400037098 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
-        27B9B5AD21B1175400037098 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-        27B9B5AE21B1175400037098 /* APIBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIBase.swift; sourceTree = "<group>"; };
-        27B9B5AF21B1175400037098 /* TTNetworkCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTNetworkCoreDataManager.swift; sourceTree = "<group>"; };
-        27B9B5B221B1175400037098 /* APICache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICache.swift; sourceTree = "<group>"; };
-        27B9B5B321B1175400037098 /* APICache+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APICache+CoreDataProperties.swift"; sourceTree = "<group>"; };
-        27B9B5B521B1175400037098 /* TTNetworkContants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTNetworkContants.swift; sourceTree = "<group>"; };
-        27B9B5B621B1175400037098 /* TTNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTNetworkManager.swift; sourceTree = "<group>"; };
-        27B9B5B821B1175400037098 /* TTNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTNetwork.xcdatamodel; sourceTree = "<group>"; };
-        27B9B5C321B2C03F00037098 /* NDAuthenticationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAuthenticationApi.swift; sourceTree = "<group>"; };
-        27B9B5C621B2ED3500037098 /* NDConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDConstants.swift; sourceTree = "<group>"; };
-        27B9B5C821B2EFBE00037098 /* NDMyProfileApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDMyProfileApi.swift; sourceTree = "<group>"; };
-        27B9B5CA21B3009100037098 /* NDChangePasswordApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDChangePasswordApi.swift; sourceTree = "<group>"; };
-        27B9B5CC21B3026700037098 /* NDAccountDetailsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAccountDetailsApi.swift; sourceTree = "<group>"; };
-        27B9B5CE21B3051900037098 /* NDProfileListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDProfileListApi.swift; sourceTree = "<group>"; };
-        27B9B5D021B3081F00037098 /* NDDishListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDDishListApi.swift; sourceTree = "<group>"; };
-        27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewDish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewDish/Pods-NewDish.debug.xcconfig"; sourceTree = "<group>"; };
-        42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewDish.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewDish/Pods-NewDish.release.xcconfig"; sourceTree = "<group>"; };
-        861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDHomeListEateriesApi.swift; sourceTree = "<group>"; };
-        861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDRestaurantListApi.swift; sourceTree = "<group>"; };
-        8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDActivityListApi.swift; sourceTree = "<group>"; };
-        8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDealsListApi.swift; sourceTree = "<group>"; };
-        8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDealApi.swift; sourceTree = "<group>"; };
-        8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesActivatedDealApi.swift; sourceTree = "<group>"; };
-        8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDishesListApi.swift; sourceTree = "<group>"; };
-        8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAppDishesApi.swift; sourceTree = "<group>"; };
-        86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAppDishesMoreInfoApi.swift; sourceTree = "<group>"; };
-        86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDetailsApi.swift; sourceTree = "<group>"; };
-        970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewDish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AABF6021C043A000B81AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDBaseViewController.swift; sourceTree = "<group>"; };
+		27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSplashViewController.swift; sourceTree = "<group>"; };
+		27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSignUpViewController.swift; sourceTree = "<group>"; };
+		27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDSignInViewController.swift; sourceTree = "<group>"; };
+		27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDOtpViewController.swift; sourceTree = "<group>"; };
+		27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-black-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-sbold-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
+		27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-reg-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-xbold-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-light-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
+		27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
+		27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-thin-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-bold-webfont.ttf"; sourceTree = "<group>"; };
+		27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
+		27B9B59121B1167000037098 /* NewDish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B9B59921B1167000037098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27B9B59C21B1167000037098 /* NewDish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewDish.xcdatamodel; sourceTree = "<group>"; };
+		27B9B59E21B1167300037098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27B9B5A121B1167300037098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27B9B5A321B1167300037098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B9B5AC21B1175400037098 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		27B9B5AD21B1175400037098 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		27B9B5AE21B1175400037098 /* APIBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIBase.swift; sourceTree = "<group>"; };
+		27B9B5AF21B1175400037098 /* TTNetworkCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTNetworkCoreDataManager.swift; sourceTree = "<group>"; };
+		27B9B5B221B1175400037098 /* APICache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICache.swift; sourceTree = "<group>"; };
+		27B9B5B321B1175400037098 /* APICache+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APICache+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		27B9B5B521B1175400037098 /* TTNetworkContants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTNetworkContants.swift; sourceTree = "<group>"; };
+		27B9B5B621B1175400037098 /* TTNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTNetworkManager.swift; sourceTree = "<group>"; };
+		27B9B5B821B1175400037098 /* TTNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTNetwork.xcdatamodel; sourceTree = "<group>"; };
+		27B9B5C321B2C03F00037098 /* NDAuthenticationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAuthenticationApi.swift; sourceTree = "<group>"; };
+		27B9B5C621B2ED3500037098 /* NDConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDConstants.swift; sourceTree = "<group>"; };
+		27B9B5C821B2EFBE00037098 /* NDMyProfileApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDMyProfileApi.swift; sourceTree = "<group>"; };
+		27B9B5CA21B3009100037098 /* NDChangePasswordApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDChangePasswordApi.swift; sourceTree = "<group>"; };
+		27B9B5CC21B3026700037098 /* NDAccountDetailsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAccountDetailsApi.swift; sourceTree = "<group>"; };
+		27B9B5CE21B3051900037098 /* NDProfileListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDProfileListApi.swift; sourceTree = "<group>"; };
+		27B9B5D021B3081F00037098 /* NDDishListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDDishListApi.swift; sourceTree = "<group>"; };
+		27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewDish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewDish/Pods-NewDish.debug.xcconfig"; sourceTree = "<group>"; };
+		42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewDish.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewDish/Pods-NewDish.release.xcconfig"; sourceTree = "<group>"; };
+		861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDHomeListEateriesApi.swift; sourceTree = "<group>"; };
+		861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDRestaurantListApi.swift; sourceTree = "<group>"; };
+		8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDActivityListApi.swift; sourceTree = "<group>"; };
+		8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDealsListApi.swift; sourceTree = "<group>"; };
+		8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDealApi.swift; sourceTree = "<group>"; };
+		8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesActivatedDealApi.swift; sourceTree = "<group>"; };
+		8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDishesListApi.swift; sourceTree = "<group>"; };
+		8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAppDishesApi.swift; sourceTree = "<group>"; };
+		86A89CA521C7BBA4005D8F6F /* NDEateriesSearchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesSearchApi.swift; sourceTree = "<group>"; };
+		86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAppDishesMoreInfoApi.swift; sourceTree = "<group>"; };
+		86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDetailsApi.swift; sourceTree = "<group>"; };
+		970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewDish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        27B9B58E21B1167000037098 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		27B9B58E21B1167000037098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        27AABF5E21C043A000B81AD8 /* ViewControllers */ = {
-            isa = PBXGroup;
-            children = (
-                27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */,
-                27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */,
-                27AABF6421C043E600B81AD8 /* Authentication */,
-            );
-            path = ViewControllers;
-            sourceTree = "<group>";
-        };
-        27AABF5F21C043A000B81AD8 /* AppDelegate */ = {
-            isa = PBXGroup;
-            children = (
-                27AABF6021C043A000B81AD8 /* AppDelegate.swift */,
-            );
-            path = AppDelegate;
-            sourceTree = "<group>";
-        };
-        27AABF6421C043E600B81AD8 /* Authentication */ = {
-            isa = PBXGroup;
-            children = (
-                27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */,
-                27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */,
-                27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */,
-            );
-            path = Authentication;
-            sourceTree = "<group>";
-        };
-        27AABF6D21C04C4E00B81AD8 /* ProximaNova */ = {
-            isa = PBXGroup;
-            children = (
-                27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */,
-                27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */,
-                27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */,
-                27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */,
-                27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */,
-                27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */,
-                27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */,
-                27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */,
-                27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */,
-                27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */,
-                27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */,
-                27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */,
-            );
-            path = ProximaNova;
-            sourceTree = "<group>";
-        };
-        27B9B58821B1167000037098 = {
-            isa = PBXGroup;
-            children = (
-                27B9B59321B1167000037098 /* NewDish */,
-                27B9B59221B1167000037098 /* Products */,
-                9F4D7CB215522A7151A55E0C /* Pods */,
-                86A7DA656F79BE8AE238AD9E /* Frameworks */,
-            );
-            sourceTree = "<group>";
-        };
-        27B9B59221B1167000037098 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B59121B1167000037098 /* NewDish.app */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        27B9B59321B1167000037098 /* NewDish */ = {
-            isa = PBXGroup;
-            children = (
-                27AABF5F21C043A000B81AD8 /* AppDelegate */,
-                27AABF5E21C043A000B81AD8 /* ViewControllers */,
-                27B9B5C521B2ED0C00037098 /* UtilityClasses */,
-                27B9B5C221B2BFE600037098 /* APIS */,
-                27B9B5A921B1175400037098 /* TTNetwork */,
-                27B9B59821B1167000037098 /* Main.storyboard */,
-                27B9B59E21B1167300037098 /* Assets.xcassets */,
-                27B9B5A021B1167300037098 /* LaunchScreen.storyboard */,
-                27B9B5A321B1167300037098 /* Info.plist */,
-                27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */,
-                27AABF6D21C04C4E00B81AD8 /* ProximaNova */,
-            );
-            path = NewDish;
-            sourceTree = "<group>";
-        };
-        27B9B5A921B1175400037098 /* TTNetwork */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5AA21B1175400037098 /* Managers */,
-                27B9B5B021B1175400037098 /* Model */,
-                27B9B5B421B1175400037098 /* TTNetworkConstants */,
-                27B9B5B621B1175400037098 /* TTNetworkManager.swift */,
-                27B9B5B721B1175400037098 /* TTNetwork.xcdatamodeld */,
-            );
-            path = TTNetwork;
-            sourceTree = "<group>";
-        };
-        27B9B5AA21B1175400037098 /* Managers */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5AB21B1175400037098 /* APIManager */,
-                27B9B5AF21B1175400037098 /* TTNetworkCoreDataManager.swift */,
-            );
-            path = Managers;
-            sourceTree = "<group>";
-        };
-        27B9B5AB21B1175400037098 /* APIManager */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5AC21B1175400037098 /* APIKeys.swift */,
-                27B9B5AD21B1175400037098 /* APIManager.swift */,
-                27B9B5AE21B1175400037098 /* APIBase.swift */,
-            );
-            path = APIManager;
-            sourceTree = "<group>";
-        };
-        27B9B5B021B1175400037098 /* Model */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5B121B1175400037098 /* DBModel */,
-            );
-            path = Model;
-            sourceTree = "<group>";
-        };
-        27B9B5B121B1175400037098 /* DBModel */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5B221B1175400037098 /* APICache.swift */,
-                27B9B5B321B1175400037098 /* APICache+CoreDataProperties.swift */,
-            );
-            path = DBModel;
-            sourceTree = "<group>";
-        };
-        27B9B5B421B1175400037098 /* TTNetworkConstants */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5B521B1175400037098 /* TTNetworkContants.swift */,
-            );
-            path = TTNetworkConstants;
-            sourceTree = "<group>";
-        };
-        27B9B5C221B2BFE600037098 /* APIS */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5C321B2C03F00037098 /* NDAuthenticationApi.swift */,
-                27B9B5C821B2EFBE00037098 /* NDMyProfileApi.swift */,
-                27B9B5CA21B3009100037098 /* NDChangePasswordApi.swift */,
-                27B9B5CC21B3026700037098 /* NDAccountDetailsApi.swift */,
-                27B9B5CE21B3051900037098 /* NDProfileListApi.swift */,
-                27B9B5D021B3081F00037098 /* NDDishListApi.swift */,
-                861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */,
-                861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */,
-                8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */,
-                8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */,
-                8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */,
-                8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */,
-                8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */,
-                8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */,
-                86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */,
-                86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */,
-            );
-            path = APIS;
-            sourceTree = "<group>";
-        };
-        27B9B5C521B2ED0C00037098 /* UtilityClasses */ = {
-            isa = PBXGroup;
-            children = (
-                27B9B5C621B2ED3500037098 /* NDConstants.swift */,
-            );
-            path = UtilityClasses;
-            sourceTree = "<group>";
-        };
-        86A7DA656F79BE8AE238AD9E /* Frameworks */ = {
-            isa = PBXGroup;
-            children = (
-                970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */,
-            );
-            name = Frameworks;
-            sourceTree = "<group>";
-        };
-        9F4D7CB215522A7151A55E0C /* Pods */ = {
-            isa = PBXGroup;
-            children = (
-                27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */,
-                42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */,
-            );
-            name = Pods;
-            sourceTree = "<group>";
-        };
+		27AABF5E21C043A000B81AD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6221C043C400B81AD8 /* NDBaseViewController.swift */,
+				27AABF6521C0440B00B81AD8 /* NDSplashViewController.swift */,
+				27AABF6421C043E600B81AD8 /* Authentication */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27AABF5F21C043A000B81AD8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6021C043A000B81AD8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		27AABF6421C043E600B81AD8 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6721C0487500B81AD8 /* NDSignUpViewController.swift */,
+				27AABF6921C0488200B81AD8 /* NDSignInViewController.swift */,
+				27AABF6B21C048BC00B81AD8 /* NDOtpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		27AABF6D21C04C4E00B81AD8 /* ProximaNova */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF6E21C04C4E00B81AD8 /* proximanova-black-webfont.ttf */,
+				27AABF6F21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf */,
+				27AABF7021C04C4E00B81AD8 /* ProximaNova-BoldIt.otf */,
+				27AABF7121C04C4E00B81AD8 /* proximanova-reg-webfont.ttf */,
+				27AABF7221C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf */,
+				27AABF7321C04C4E00B81AD8 /* proximanova-light-webfont.ttf */,
+				27AABF7421C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf */,
+				27AABF7521C04C4E00B81AD8 /* ProximaNova-RegItalic.otf */,
+				27AABF7621C04C4E00B81AD8 /* proximanova-thin-webfont.ttf */,
+				27AABF7721C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf */,
+				27AABF7821C04C4E00B81AD8 /* proximanova-bold-webfont.ttf */,
+				27AABF7921C04C4E00B81AD8 /* ProximaNova-LightItalic.otf */,
+			);
+			path = ProximaNova;
+			sourceTree = "<group>";
+		};
+		27B9B58821B1167000037098 = {
+			isa = PBXGroup;
+			children = (
+				27B9B59321B1167000037098 /* NewDish */,
+				27B9B59221B1167000037098 /* Products */,
+				9F4D7CB215522A7151A55E0C /* Pods */,
+				86A7DA656F79BE8AE238AD9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27B9B59221B1167000037098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B59121B1167000037098 /* NewDish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27B9B59321B1167000037098 /* NewDish */ = {
+			isa = PBXGroup;
+			children = (
+				27AABF5F21C043A000B81AD8 /* AppDelegate */,
+				27AABF5E21C043A000B81AD8 /* ViewControllers */,
+				27B9B5C521B2ED0C00037098 /* UtilityClasses */,
+				27B9B5C221B2BFE600037098 /* APIS */,
+				27B9B5A921B1175400037098 /* TTNetwork */,
+				27B9B59821B1167000037098 /* Main.storyboard */,
+				27B9B59E21B1167300037098 /* Assets.xcassets */,
+				27B9B5A021B1167300037098 /* LaunchScreen.storyboard */,
+				27B9B5A321B1167300037098 /* Info.plist */,
+				27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */,
+				27AABF6D21C04C4E00B81AD8 /* ProximaNova */,
+			);
+			path = NewDish;
+			sourceTree = "<group>";
+		};
+		27B9B5A921B1175400037098 /* TTNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5AA21B1175400037098 /* Managers */,
+				27B9B5B021B1175400037098 /* Model */,
+				27B9B5B421B1175400037098 /* TTNetworkConstants */,
+				27B9B5B621B1175400037098 /* TTNetworkManager.swift */,
+				27B9B5B721B1175400037098 /* TTNetwork.xcdatamodeld */,
+			);
+			path = TTNetwork;
+			sourceTree = "<group>";
+		};
+		27B9B5AA21B1175400037098 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5AB21B1175400037098 /* APIManager */,
+				27B9B5AF21B1175400037098 /* TTNetworkCoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		27B9B5AB21B1175400037098 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5AC21B1175400037098 /* APIKeys.swift */,
+				27B9B5AD21B1175400037098 /* APIManager.swift */,
+				27B9B5AE21B1175400037098 /* APIBase.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		27B9B5B021B1175400037098 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5B121B1175400037098 /* DBModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27B9B5B121B1175400037098 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5B221B1175400037098 /* APICache.swift */,
+				27B9B5B321B1175400037098 /* APICache+CoreDataProperties.swift */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		27B9B5B421B1175400037098 /* TTNetworkConstants */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5B521B1175400037098 /* TTNetworkContants.swift */,
+			);
+			path = TTNetworkConstants;
+			sourceTree = "<group>";
+		};
+		27B9B5C221B2BFE600037098 /* APIS */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5C321B2C03F00037098 /* NDAuthenticationApi.swift */,
+				27B9B5C821B2EFBE00037098 /* NDMyProfileApi.swift */,
+				27B9B5CA21B3009100037098 /* NDChangePasswordApi.swift */,
+				27B9B5CC21B3026700037098 /* NDAccountDetailsApi.swift */,
+				27B9B5CE21B3051900037098 /* NDProfileListApi.swift */,
+				27B9B5D021B3081F00037098 /* NDDishListApi.swift */,
+				861A040A21B82AD100EBD8AE /* NDHomeListEateriesApi.swift */,
+				861A040C21B8314D00EBD8AE /* NDRestaurantListApi.swift */,
+				8657747E21B8DC3600069BC8 /* NDActivityListApi.swift */,
+				8657748321B8FFB000069BC8 /* NDEateriesDealsListApi.swift */,
+				8657748521B9299F00069BC8 /* NDEateriesDealApi.swift */,
+				8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */,
+				8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */,
+				8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */,
+				86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */,
+				86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */,
+				86A89CA521C7BBA4005D8F6F /* NDEateriesSearchApi.swift */,
+			);
+			path = APIS;
+			sourceTree = "<group>";
+		};
+		27B9B5C521B2ED0C00037098 /* UtilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+				27B9B5C621B2ED3500037098 /* NDConstants.swift */,
+			);
+			path = UtilityClasses;
+			sourceTree = "<group>";
+		};
+		86A7DA656F79BE8AE238AD9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F4D7CB215522A7151A55E0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */,
+				42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        27B9B59021B1167000037098 /* NewDish */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 27B9B5A621B1167300037098 /* Build configuration list for PBXNativeTarget "NewDish" */;
-            buildPhases = (
-                94261A243C719C0ABAF37897 /* [CP] Check Pods Manifest.lock */,
-                27B9B58D21B1167000037098 /* Sources */,
-                27B9B58E21B1167000037098 /* Frameworks */,
-                27B9B58F21B1167000037098 /* Resources */,
-                D2598C6C26B827201750B702 /* [CP] Embed Pods Frameworks */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = NewDish;
-            productName = NewDish;
-            productReference = 27B9B59121B1167000037098 /* NewDish.app */;
-            productType = "com.apple.product-type.application";
-        };
+		27B9B59021B1167000037098 /* NewDish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B9B5A621B1167300037098 /* Build configuration list for PBXNativeTarget "NewDish" */;
+			buildPhases = (
+				94261A243C719C0ABAF37897 /* [CP] Check Pods Manifest.lock */,
+				27B9B58D21B1167000037098 /* Sources */,
+				27B9B58E21B1167000037098 /* Frameworks */,
+				27B9B58F21B1167000037098 /* Resources */,
+				D2598C6C26B827201750B702 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewDish;
+			productName = NewDish;
+			productReference = 27B9B59121B1167000037098 /* NewDish.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        27B9B58921B1167000037098 /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 1010;
-                LastUpgradeCheck = 1010;
-                ORGANIZATIONNAME = "Tarento Technologies Pvt Ltd";
-                TargetAttributes = {
-                    27B9B59021B1167000037098 = {
-                        CreatedOnToolsVersion = 10.1;
-                    };
-                };
-            };
-            buildConfigurationList = 27B9B58C21B1167000037098 /* Build configuration list for PBXProject "NewDish" */;
-            compatibilityVersion = "Xcode 9.3";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = 27B9B58821B1167000037098;
-            productRefGroup = 27B9B59221B1167000037098 /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                27B9B59021B1167000037098 /* NewDish */,
-            );
-        };
+		27B9B58921B1167000037098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tarento Technologies Pvt Ltd";
+				TargetAttributes = {
+					27B9B59021B1167000037098 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 27B9B58C21B1167000037098 /* Build configuration list for PBXProject "NewDish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27B9B58821B1167000037098;
+			productRefGroup = 27B9B59221B1167000037098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B9B59021B1167000037098 /* NewDish */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        27B9B58F21B1167000037098 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                27B9B5A221B1167300037098 /* LaunchScreen.storyboard in Resources */,
-                27AABF7D21C04C4E00B81AD8 /* proximanova-reg-webfont.ttf in Resources */,
-                27AABF8421C04C4E00B81AD8 /* proximanova-bold-webfont.ttf in Resources */,
-                27AABF7A21C04C4E00B81AD8 /* proximanova-black-webfont.ttf in Resources */,
-                27AABF7C21C04C4E00B81AD8 /* ProximaNova-BoldIt.otf in Resources */,
-                27AABF8321C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf in Resources */,
-                27B9B59F21B1167300037098 /* Assets.xcassets in Resources */,
-                27AABF8021C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf in Resources */,
-                27AABF8221C04C4E00B81AD8 /* proximanova-thin-webfont.ttf in Resources */,
-                27AABF7E21C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf in Resources */,
-                27AABF7B21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf in Resources */,
-                27AABF7F21C04C4E00B81AD8 /* proximanova-light-webfont.ttf in Resources */,
-                27B9B59A21B1167000037098 /* Main.storyboard in Resources */,
-                27AABF8121C04C4E00B81AD8 /* ProximaNova-RegItalic.otf in Resources */,
-                27AABF8521C04C4E00B81AD8 /* ProximaNova-LightItalic.otf in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		27B9B58F21B1167000037098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B9B5A221B1167300037098 /* LaunchScreen.storyboard in Resources */,
+				27AABF7D21C04C4E00B81AD8 /* proximanova-reg-webfont.ttf in Resources */,
+				27AABF8421C04C4E00B81AD8 /* proximanova-bold-webfont.ttf in Resources */,
+				27AABF7A21C04C4E00B81AD8 /* proximanova-black-webfont.ttf in Resources */,
+				27AABF7C21C04C4E00B81AD8 /* ProximaNova-BoldIt.otf in Resources */,
+				27AABF8321C04C4E00B81AD8 /* ProximaNova-SemiboldItalic.otf in Resources */,
+				27B9B59F21B1167300037098 /* Assets.xcassets in Resources */,
+				27AABF8021C04C4E00B81AD8 /* ProximaNova-RegularItalic.otf in Resources */,
+				27AABF8221C04C4E00B81AD8 /* proximanova-thin-webfont.ttf in Resources */,
+				27AABF7E21C04C4E00B81AD8 /* proximanova-xbold-webfont.ttf in Resources */,
+				27AABF7B21C04C4E00B81AD8 /* proximanova-sbold-webfont.ttf in Resources */,
+				27AABF7F21C04C4E00B81AD8 /* proximanova-light-webfont.ttf in Resources */,
+				27B9B59A21B1167000037098 /* Main.storyboard in Resources */,
+				27AABF8121C04C4E00B81AD8 /* ProximaNova-RegItalic.otf in Resources */,
+				27AABF8521C04C4E00B81AD8 /* ProximaNova-LightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-        94261A243C719C0ABAF37897 /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-NewDish-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        D2598C6C26B827201750B702 /* [CP] Embed Pods Frameworks */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${SRCROOT}/Pods/Target Support Files/Pods-NewDish/Pods-NewDish-frameworks.sh",
-                "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-                "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-                "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-                "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-                "${BUILT_PRODUCTS_DIR}/TTPLLibrary/TTPLLibrary.framework",
-            );
-            name = "[CP] Embed Pods Frameworks";
-            outputPaths = (
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTPLLibrary.framework",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewDish/Pods-NewDish-frameworks.sh\"\n";
-            showEnvVarsInLog = 0;
-        };
+		94261A243C719C0ABAF37897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewDish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2598C6C26B827201750B702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewDish/Pods-NewDish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TTPLLibrary/TTPLLibrary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTPLLibrary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewDish/Pods-NewDish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        27B9B58D21B1167000037098 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                8657748821BA935900069BC8 /* NDEateriesActivatedDealApi.swift in Sources */,
-                27B9B5C721B2ED3500037098 /* NDConstants.swift in Sources */,
-                27B9B5C421B2C03F00037098 /* NDAuthenticationApi.swift in Sources */,
-                27B9B5D121B3081F00037098 /* NDDishListApi.swift in Sources */,
-                27AABF6321C043C400B81AD8 /* NDBaseViewController.swift in Sources */,
-                27B9B5BA21B1175400037098 /* APIManager.swift in Sources */,
-                27B9B5B921B1175400037098 /* APIKeys.swift in Sources */,
-                27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */,
-                27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */,
-                27AABF6121C043A000B81AD8 /* AppDelegate.swift in Sources */,
-                27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */,
+		27B9B58D21B1167000037098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8657748821BA935900069BC8 /* NDEateriesActivatedDealApi.swift in Sources */,
+				27B9B5C721B2ED3500037098 /* NDConstants.swift in Sources */,
+				27B9B5C421B2C03F00037098 /* NDAuthenticationApi.swift in Sources */,
+				27B9B5D121B3081F00037098 /* NDDishListApi.swift in Sources */,
+				27AABF6321C043C400B81AD8 /* NDBaseViewController.swift in Sources */,
+				27B9B5BA21B1175400037098 /* APIManager.swift in Sources */,
+				27B9B5B921B1175400037098 /* APIKeys.swift in Sources */,
+				27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */,
+				86A89CA621C7BBA4005D8F6F /* NDEateriesSearchApi.swift in Sources */,
+				27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */,
+				27AABF6121C043A000B81AD8 /* AppDelegate.swift in Sources */,
+				27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */,
 				27AABF6821C0487500B81AD8 /* NDSignUpViewController.swift in Sources */,
 				27AABF6621C0440B00B81AD8 /* NDSplashViewController.swift in Sources */,
-                8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */,
-                27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */,
-                27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */,
-                8657748C21BAA9B300069BC8 /* NDAppDishesApi.swift in Sources */,
-                27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */,
-                8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */,
-                8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */,
-                27AABF6C21C048BC00B81AD8 /* NDOtpViewController.swift in Sources */,
-                861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */,
-                27B9B5BB21B1175400037098 /* APIBase.swift in Sources */,
-                861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */,
-                8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */,
-                27B9B5C121B1175400037098 /* TTNetwork.xcdatamodeld in Sources */,
-                27B9B5C021B1175400037098 /* TTNetworkManager.swift in Sources */,
+				8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */,
+				27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */,
+				27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */,
+				8657748C21BAA9B300069BC8 /* NDAppDishesApi.swift in Sources */,
+				27B9B5CB21B3009100037098 /* NDChangePasswordApi.swift in Sources */,
+				8657748621B9299F00069BC8 /* NDEateriesDealApi.swift in Sources */,
+				8657747F21B8DC3600069BC8 /* NDActivityListApi.swift in Sources */,
+				27AABF6C21C048BC00B81AD8 /* NDOtpViewController.swift in Sources */,
+				861A040B21B82AD100EBD8AE /* NDHomeListEateriesApi.swift in Sources */,
+				27B9B5BB21B1175400037098 /* APIBase.swift in Sources */,
+				861A040D21B8314D00EBD8AE /* NDRestaurantListApi.swift in Sources */,
+				8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */,
+				27B9B5C121B1175400037098 /* TTNetwork.xcdatamodeld in Sources */,
+				27B9B5C021B1175400037098 /* TTNetworkManager.swift in Sources */,
 				27AABF6A21C0488200B81AD8 /* NDSignInViewController.swift in Sources */,
-                27B9B5C921B2EFBE00037098 /* NDMyProfileApi.swift in Sources */,
-                27B9B5BD21B1175400037098 /* APICache.swift in Sources */,
-                27B9B5BE21B1175400037098 /* APICache+CoreDataProperties.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+				27B9B5C921B2EFBE00037098 /* NDMyProfileApi.swift in Sources */,
+				27B9B5BD21B1175400037098 /* APICache.swift in Sources */,
+				27B9B5BE21B1175400037098 /* APICache+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-        27B9B59821B1167000037098 /* Main.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                27B9B59921B1167000037098 /* Base */,
-            );
-            name = Main.storyboard;
-            sourceTree = "<group>";
-        };
-        27B9B5A021B1167300037098 /* LaunchScreen.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                27B9B5A121B1167300037098 /* Base */,
-            );
-            name = LaunchScreen.storyboard;
-            sourceTree = "<group>";
-        };
+		27B9B59821B1167000037098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B9B59921B1167000037098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27B9B5A021B1167300037098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B9B5A121B1167300037098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-        27B9B5A421B1167300037098 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-                MTL_FAST_MATH = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        27B9B5A521B1167300037098 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                MTL_FAST_MATH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_COMPILATION_MODE = wholemodule;
-                SWIFT_OPTIMIZATION_LEVEL = "-O";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        27B9B5A721B1167300037098 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = 27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Manual;
-                DEVELOPMENT_TEAM = "";
-                INFOPLIST_FILE = NewDish/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.newdish.NewDish;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                PROVISIONING_PROFILE_SPECIFIER = "";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        27B9B5A821B1167300037098 /* Release */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = 42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Manual;
-                DEVELOPMENT_TEAM = "";
-                INFOPLIST_FILE = NewDish/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = com.newdish.NewDish;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                PROVISIONING_PROFILE_SPECIFIER = "";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
+		27B9B5A421B1167300037098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27B9B5A521B1167300037098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27B9B5A721B1167300037098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F79DD60701A3EDAF35652C /* Pods-NewDish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NewDish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newdish.NewDish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27B9B5A821B1167300037098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D8AB53170582811FF40E1E /* Pods-NewDish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NewDish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newdish.NewDish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        27B9B58C21B1167000037098 /* Build configuration list for PBXProject "NewDish" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                27B9B5A421B1167300037098 /* Debug */,
-                27B9B5A521B1167300037098 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        27B9B5A621B1167300037098 /* Build configuration list for PBXNativeTarget "NewDish" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                27B9B5A721B1167300037098 /* Debug */,
-                27B9B5A821B1167300037098 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		27B9B58C21B1167000037098 /* Build configuration list for PBXProject "NewDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B9B5A421B1167300037098 /* Debug */,
+				27B9B5A521B1167300037098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B9B5A621B1167300037098 /* Build configuration list for PBXNativeTarget "NewDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B9B5A721B1167300037098 /* Debug */,
+				27B9B5A821B1167300037098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-        27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */ = {
-            isa = XCVersionGroup;
-            children = (
-                27B9B59C21B1167000037098 /* NewDish.xcdatamodel */,
-            );
-            currentVersion = 27B9B59C21B1167000037098 /* NewDish.xcdatamodel */;
-            path = NewDish.xcdatamodeld;
-            sourceTree = "<group>";
-            versionGroupType = wrapper.xcdatamodel;
-        };
-        27B9B5B721B1175400037098 /* TTNetwork.xcdatamodeld */ = {
-            isa = XCVersionGroup;
-            children = (
-                27B9B5B821B1175400037098 /* TTNetwork.xcdatamodel */,
-            );
-            currentVersion = 27B9B5B821B1175400037098 /* TTNetwork.xcdatamodel */;
-            path = TTNetwork.xcdatamodeld;
-            sourceTree = "<group>";
-            versionGroupType = wrapper.xcdatamodel;
-        };
+		27B9B59B21B1167000037098 /* NewDish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27B9B59C21B1167000037098 /* NewDish.xcdatamodel */,
+			);
+			currentVersion = 27B9B59C21B1167000037098 /* NewDish.xcdatamodel */;
+			path = NewDish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		27B9B5B721B1175400037098 /* TTNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27B9B5B821B1175400037098 /* TTNetwork.xcdatamodel */,
+			);
+			currentVersion = 27B9B5B821B1175400037098 /* TTNetwork.xcdatamodel */;
+			path = TTNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 /* End XCVersionGroup section */
-    };
-    rootObject = 27B9B58921B1167000037098 /* Project object */;
+	};
+	rootObject = 27B9B58921B1167000037098 /* Project object */;
 }
