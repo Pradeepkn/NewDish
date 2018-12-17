@@ -27,10 +27,10 @@ class NDAppDishesApi: APIBase {
     var appDishEateriesDataSource = AppDishesModel()
     
     override func urlForRequest() -> String {
-        return self.getEateriesDishesListUrl()
+        return self.getAppDishesUrl()
     }
     
-    func getEateriesDishesListUrl() -> String {
+    func getAppDishesUrl() -> String {
         return "\(APIConfig.BaseURL)app/dishes/"+"\(appDishId)"
     }
     
@@ -65,7 +65,7 @@ class NDAppDishesApi: APIBase {
                 appDishesModel.id = id
                 appDishesModel.name = name
                 
-                let eateryData = dictionary["locality"] as! NSDictionary
+                let eateryData = dictionary["eatery"] as! NSDictionary
                 let eateryDataModel = EateryDataModel()
                 eateryDataModel.id = eateryData["id"] as! NSNumber
                 eateryDataModel.name = eateryData["name"] as! String

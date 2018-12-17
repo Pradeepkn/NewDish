@@ -37,6 +37,8 @@
 		8657748821BA935900069BC8 /* NDEateriesActivatedDealApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */; };
 		8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */; };
 		8657748C21BAA9B300069BC8 /* NDAppDishesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */; };
+		86C1441A21BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */; };
+		86DE18D321C0D7BE008A420B /* NDEateriesDetailsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */; };
 		EEC2261C2582FDD2B142FC74 /* Pods_NewDish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesActivatedDealApi.swift; sourceTree = "<group>"; };
 		8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDishesListApi.swift; sourceTree = "<group>"; };
 		8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAppDishesApi.swift; sourceTree = "<group>"; };
+		86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDAppDishesMoreInfoApi.swift; sourceTree = "<group>"; };
+		86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDEateriesDetailsApi.swift; sourceTree = "<group>"; };
 		970A9BDD3EBE26ACA6DEAEB2 /* Pods_NewDish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewDish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -198,6 +202,8 @@
 				8657748721BA935900069BC8 /* NDEateriesActivatedDealApi.swift */,
 				8657748921BAA2B400069BC8 /* NDEateriesDishesListApi.swift */,
 				8657748B21BAA9B300069BC8 /* NDAppDishesApi.swift */,
+				86C1441921BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift */,
+				86DE18D221C0D7BE008A420B /* NDEateriesDetailsApi.swift */,
 			);
 			path = APIS;
 			sourceTree = "<group>";
@@ -358,6 +364,7 @@
 				27B9B5CF21B3051900037098 /* NDProfileListApi.swift in Sources */,
 				27B9B5BF21B1175400037098 /* TTNetworkContants.swift in Sources */,
 				27B9B59D21B1167000037098 /* NewDish.xcdatamodeld in Sources */,
+				86C1441A21BF8AD500C885F9 /* NDAppDishesMoreInfoApi.swift in Sources */,
 				8657748421B8FFB000069BC8 /* NDEateriesDealsListApi.swift in Sources */,
 				27B9B5BC21B1175400037098 /* TTNetworkCoreDataManager.swift in Sources */,
 				27B9B5CD21B3026700037098 /* NDAccountDetailsApi.swift in Sources */,
@@ -371,6 +378,7 @@
 				8657748A21BAA2B400069BC8 /* NDEateriesDishesListApi.swift in Sources */,
 				27B9B5C121B1175400037098 /* TTNetwork.xcdatamodeld in Sources */,
 				27B9B5C021B1175400037098 /* TTNetworkManager.swift in Sources */,
+				86DE18D321C0D7BE008A420B /* NDEateriesDetailsApi.swift in Sources */,
 				27B9B5C921B2EFBE00037098 /* NDMyProfileApi.swift in Sources */,
 				27B9B5BD21B1175400037098 /* APICache.swift in Sources */,
 				27B9B5BE21B1175400037098 /* APICache+CoreDataProperties.swift in Sources */,
